@@ -1,0 +1,113 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.container{
+	width: 80%;
+	margin: auto;
+}
+.bg-container{
+	background: url("images/background.jpg");
+	background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.header{
+	width: 100%;
+	border-bottom: 1px solid gray;
+}
+.header:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+.header .logo-area{
+	width: 30%;
+	float: left;
+	color: white;
+}
+.header .menu-area{
+	width: 40%;
+	overflow: hidden;
+	float: left;
+}
+.header .social-links{
+	width: 30%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+.social-links ul{
+	margin: 0;
+	float: right;
+	display: block;
+	overflow: hidden;
+}
+.social-links ul li{
+	list-style-type: none;
+	float: left;
+	padding-left: 20px;
+}
+.social-links ul li a{
+	color: white;
+	font-size: 22px;
+	padding: 20px 20px;
+	display: block;
+}
+.menu-area ul{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+.menu-area ul li{
+	float: left;
+	list-style-type: none;
+	padding-left: 30px;
+}
+.menu-area ul li a{
+	padding: 22px 20px;
+	display: block;
+	text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+	font-family: tahoma;
+	font-size: 16px;
+}
+.banner-section{
+	margin: 0;
+    overflow: hidden;
+}
+.banner-left{
+	width: 60%;
+	float: left;
+	padding: 200px 0;
+	color: white;
+}
+.banner-left h2{
+	font-size: 40px;
+	font-family: tahoma;
+	margin-bottom: 40px;
+}
+.banner-left .button{
+	margin-top: 70px;
+
+}
+.banner-left .button a{
+	padding: 15px 20px;
+	background: #FF7F3E;
+	text-decoration: none;
+	font-family: tahoma;
+	font-weight: bold;
+	color: white;
+	text-transform: capitalize;
+	border-radius: 4px;
+}
+.banner-right{
+	width: 40%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.banner-right img{
+	width: 600px;
+}
