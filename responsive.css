@@ -1,0 +1,174 @@
+
+
+
+@media all and (max-width:400px){
+	.service-head h2{
+		width: 90%;
+	}
+	.menu-area ul{
+		flex-direction: column;
+		float: right;
+	}
+	.menu-area ul li a{
+		float: right;
+		text-align: center;
+	}
+	.header .menu-area{
+		width: 30%;
+		float: right;
+
+	}
+	.header .social-links ul{
+		width: 50%;
+		flex-direction: column;
+	}
+	.testmonial-top h1{
+		font-size: 35px;
+	}
+	.service-top .box1,
+	.service-top .box2,
+	.service-top .box3,
+	.service-top .box4,
+	.service-bottom .box1,
+	.service-bottom .box2,
+	.service-bottom .box3,
+	.service-bottom .box4{
+		width: 100%;
+		margin: 20px 0;
+	}
+	.service-top,
+	.service-bottom{
+		margin-top:0px;
+		flex-direction: column;
+
+	}
+	.testmonial-bottom .box1{
+		width: 100%;
+		margin: 20px 0;
+	}
+	.testmonial-bottom{
+		flex-direction: column;
+	}
+	.contact .form-box{
+		width: 100%;
+	}
+	form{
+		width: 90%;
+	}
+	.form-box input{
+		overflow: hidden;
+	}
+	.form-box form input[type=submit]{
+		width: 70%;
+	}
+	.banner-left{
+		width: 100%;
+		float: none;
+		padding: 100px 0;
+		text-align: center;
+	}
+	.banner-left h2{
+		font-size: 25px;
+
+	}
+	.banner-right{
+		width: 100%;
+		text-align: center;
+	}
+	.banner-right img{
+	width: 300px;
+	height:300px;
+	border-radius: 50%;
+	background: #FF7F3E;
+	margin-top: 0px;
+	padding: 0;
+	float: none;
+	}
+}
+
+
+
+
+@media all and (max-width:768px){
+	.service-head h2{
+		width: 90%;
+	}
+	.menu-area ul{
+		flex-direction: column;
+		float: right;
+	}
+	.menu-area ul li a{
+		float: right;
+		text-align: center;
+	}
+	.header .menu-area{
+		width: 30%;
+		float: right;
+
+	}
+	.header .social-links{
+		width: 50%;
+	}
+	.testmonial-top h1{
+		font-size: 35px;
+	}
+	.service-top .box1,
+	.service-top .box2,
+	.service-top .box3,
+	.service-top .box4,
+	.service-bottom .box1,
+	.service-bottom .box2,
+	.service-bottom .box3,
+	.service-bottom .box4{
+		width: 100%;
+		margin: 20px 0;
+	}
+	.service-top,
+	.service-bottom{
+		margin-top:0px;
+		flex-direction: column;
+
+	}
+	.testmonial-bottom .box1{
+		width: 100%;
+		margin: 20px 0;
+	}
+	.testmonial-bottom{
+		flex-direction: column;
+	}
+	.contact .form-box{
+		width: 100%;
+	}
+	form{
+		width: 90%;
+	}
+	.form-box input{
+		overflow: hidden;
+	}
+	.form-box form input[type=submit]{
+		width: 70%;
+	}
+	.banner-left{
+		width: 100%;
+		float: none;
+		padding: 100px 0;
+		text-align: center;
+	}
+	.banner-left h2{
+		font-size: 25px;
+
+	}
+	.banner-right{
+		width: 100%;
+		text-align: center;
+	}
+	.banner-right img{
+	width: 300px;
+	height:300px;
+	border-radius: 50%;
+	background: #FF7F3E;
+	margin-top: 0px;
+	padding: 0;
+	float: none;
+	}
+}
