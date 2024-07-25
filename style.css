@@ -95,6 +95,7 @@ body{
 }
 .bars i{
 	float: right;
+	font-size: 25px;
 }
 .menu-area ul li a:hover{
 	background:skyblue;
