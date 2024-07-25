@@ -13,6 +13,7 @@ jQuery(document).ready(function(){
 		if(screnwidth>768){
 
 			jQuery(".menu-area ul").removeAttr("style");
+			jQuery("body").removeClass(".container");
 		}
 	});
 

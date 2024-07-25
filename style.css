@@ -77,10 +77,9 @@ body{
 }
 .menu-area ul li{
 	list-style-type: none;
-	margin: 0 5px;
+	/*margin: 0 5px;*/
 }
-.menu-area ul li a,
-.bars{
+.menu-area ul li a{
 	padding: 22px 30px;
 	display: block;
 	text-decoration: none;
@@ -92,9 +91,17 @@ body{
 }
 .bars{
 	display: none;
+	padding: 22px 30px;
+	text-decoration: none;
+	color: white;
+	text-transform: capitalize;
+	font-family: tahoma;
+	font-size: 16px;
 }
 .bars i{
-	float: right;
+	display: block;
+	text-align: center;
+	margin: 0;
 	font-size: 25px;
 }
 .menu-area ul li a:hover{
@@ -301,7 +308,7 @@ body{
 	background:#FC427B ;
 	border-radius: 30px;
 	margin: 0;
-	font-size: 20px;
+	font-size: 18px;
 	color: white;
 	font-weight: bold;
 }
@@ -572,22 +579,28 @@ textarea{
 	}
 	.bars{
 	display: block;
-	text-align: center;
-	width: 30%;
-
-
+	}
+	.bars i{
+		text-align: center;
 	}
 	.menu-area ul{
 		flex-direction: column;
-		float: right;
 		display: none;
+		width: 	100%;
+		margin: 0;
+		padding: 0;
 	}
 	.menu-area ul li a{
 		text-align: center;
 	}
+	.menu-area ul li{
+		margin: 0;
+		padding: 0;
+	}
 	.header .menu-area{
 		width: 30%;
-		float: right;
+		justify-content:center;
+		float: 	right;
 
 	}
 	.header{
