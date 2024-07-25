@@ -34,6 +34,11 @@ body{
 .header .logo-area h2{
 	margin-bottom: 0;
 	/*color:#FF7F3E ;*/
+	
+}
+.header .logo-area h2 a{
+	text-decoration: none;
+	color: white;
 }
 .header .menu-area{
 	width: 60%;
@@ -145,7 +150,7 @@ body{
 	padding: 0;
 	float: right;
 }
-.banner-right img:hover{
+/*.banner-right img:hover{
 	width: 700px;
 	height: 700px;
 	border-radius: 50%;
@@ -155,8 +160,8 @@ body{
 	float: right;
 	transition-delay: 0s;
 	transition-duration: 15s;
-	/*transform: rotateX(45deg) rotateY(45deg);*/
-}
+	transform: rotateX(45deg) rotateY(45deg);
+}*/
 .service{
 	width: 100%;
 	overflow: hidden;
@@ -401,6 +406,9 @@ textarea{
 	.service-head h2{
 		width: 90%;
 	}
+	.header{
+		padding-bottom: 20px;
+	}
 	.bars{
 	display: block;
 	}
@@ -499,6 +507,10 @@ textarea{
 	}
 	.bars{
 	display: block;
+	text-align: center;
+	width: 30%;
+
+
 	}
 	.menu-area ul{
 		flex-direction: column;
@@ -512,6 +524,9 @@ textarea{
 		width: 30%;
 		float: right;
 
+	}
+	.header{
+		padding-bottom: 20px;
 	}
 
 	.header .logo-area{
