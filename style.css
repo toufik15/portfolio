@@ -257,6 +257,58 @@ body{
 	color: #FFFFFF;
 	font-family: tahoma;
 }
+
+
+/*subscribe start*/
+
+.subscribe-area{
+	width: 100%;
+	padding: 100px 0;
+	background: #FC427B;
+
+}
+.subscribe-area h2{
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 60px;
+	padding: 0;
+	font-size: 30px;
+	font-family: tahoma;
+	color: white;
+}
+.submit-email{
+	width: 80%;
+	padding: 8px 0;
+	margin: 0 auto;
+	background: white;
+	border:none;
+	border-radius: 50px;
+
+}
+.submit-email input[type="email"]{
+	width: 80%;
+	padding: 15px 0;
+	border: none;
+	margin-left: 4%;
+
+}
+.submit-email input[type="submit"]{
+	width: 15%;
+	padding: 20px 0;
+	border: none;
+	text-align: center;
+	background:#FC427B ;
+	border-radius: 30px;
+	margin: 0;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+}
+
+/*subscribe end*/
+
+
+/*testmonial start*/
 .testmonial{
 	width: 100%;
 	background: #F7E7DC;
@@ -496,6 +548,18 @@ textarea{
 	padding: 0;
 	float: none;
 	}
+	.submit-email input[type="email"]{
+	width: 50%;
+
+
+	}
+	.submit-email input[type="submit"]{
+	width: 40%;
+
+	}
+	.submit-email{
+		width: 100%;
+	}
 }
 
 
@@ -598,6 +662,15 @@ textarea{
 	margin-top: 0px;
 	padding: 0;
 	float: none;
+	}
+	.submit-email input[type="email"]{
+	width: 60%;
+
+
+	}
+.submit-email input[type="submit"]{
+	width: 30%;
+
 	}
 }
 
