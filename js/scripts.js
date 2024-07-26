@@ -83,7 +83,7 @@ jQuery(document).ready(function(){
 			if (jQuery("input[type='text']").val() == '') {
 				/*jQuery("input[type='text'],input[type='email'],input[type='password']").*/alert("Fill Up form");
 			}
-			else if(jQuery("input[type='submit']").val() == ''){
+			else if(jQuery("input[type='email']").val() == ''){
 				/*jQuery("input[type='text'],input[type='email'],input[type='password']").*/alert("Fill Up form");
 			}
 			else{
