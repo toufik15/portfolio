@@ -156,6 +156,7 @@ textarea{
 	margin: 20px auto;
 	border: none;
 	border-radius: 10px;
+	resize: none;
 }
 .label{
 	width: 80%;
